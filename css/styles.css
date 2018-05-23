@@ -1,0 +1,51 @@
+h1.heading {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: orange;
+  font-size: 30px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h3.heading2 {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.superdiv {
+  width: 600px;
+  column-count: 1;
+  margin: auto;
+
+}
+
+img {
+  float: left;
+  padding: 10px;
+}
+
+.superdiv h3 {
+  font-style: italic;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: lightblue;
+}
+
+@media screen and (max-width:  600px)  {
+    body {
+        background:  #FF6347;
+        color: #FFF;
+    }
+}
+@media screen and (min-width:  1000px)  {
+    body {
+        background:  #222;
+        color: yellow;
+    }
+}
